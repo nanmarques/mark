@@ -1,0 +1,46 @@
+Arguments: 
+  /Users/renanoliveira/.nvm/versions/node/v18.13.0/bin/node /usr/local/Cellar/yarn/1.22.19/libexec/bin/yarn.js add dotenv -D
+
+PATH: 
+  /Users/renanoliveira/.nvm/versions/node/v18.13.0/bin:/opt/homebrew/opt/libpq/bin:/Users/renanoliveira/bin:/Users/renanoliveira/.pyenv/shims:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/renanoliveira/.rvm/bin:/Users/renanoliveira/.rvm/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.13.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: self-signed certificate in certificate chain
+      at TLSSocket.onConnectSecure (node:_tls_wrap:1545:34)
+      at TLSSocket.emit (node:events:513:28)
+      at TLSSocket._finishInit (node:_tls_wrap:959:8)
+      at ssl.onhandshakedone (node:_tls_wrap:743:12)
+
+npm manifest: 
+  {
+    "name": "mark",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {},
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "@playwright/test": "^1.31.2",
+      "dotenv": "^16.0.3"
+    },
+    "dependencies": {
+      "@faker-js/faker": "^7.6.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
